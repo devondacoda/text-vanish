@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Lora|Noto+Sans');
+
+body {
+  font-family: 'Lora', serif!important;
+  /* font-family: 'Noto Sans', sans-serif!important; */;
+  display: block;
+}
