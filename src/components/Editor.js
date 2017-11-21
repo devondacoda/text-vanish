@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import ClassicEditor from '../../node_modules/@ckeditor/ckeditor5-build-classic/build/ckeditor';
 
 export default class Editor extends Component {
   constructor() {
@@ -16,7 +15,7 @@ export default class Editor extends Component {
   }
 
   componentDidMount() {
-    this.setState({ editor: ClassicEditor.create(document.querySelector('#editor')) })
+    this.setState({ editor: document.querySelector('#editor') })
   }
 
   render() {
@@ -25,7 +24,10 @@ export default class Editor extends Component {
         <div id="app" 
           onKeyDown={this.onAnyKey}
           onKeyPress={this.onAlphaNumeric}>
-          <input type="text" id="editor"></input>
+          <input className="input"
+            type="text"
+            id="editor"
+            autoFocus />
         </div>
         <div className="buttons">
           <button 
@@ -39,42 +41,35 @@ export default class Editor extends Component {
   }
 
   onAlphaNumeric(evt) {
-    this.state.letters.push(evt.key);
+    if (evt.key !== 'Enter') {
+      this.state.letters.push(evt.key);
+    }
   }
 
   onAnyKey(evt) {
     const editor = this.state.editor;
     const letters = this.state.letters;
     const key = evt.key;
-    editor.then((editor) => {
       if (key === ' ') {
-        editor.setData('<p></p>');
+        editor.value = '';
       }
       // Only allow backspace when text is visible in editor
       if (key === 'Backspace' && letters[letters.length - 1] !== ' ') {
         letters.pop();
       }
-      if (key === 'Enter') {
-        editor.setData('<p></p>');
-        letters.push('\n');
-        this.save(); // ALTERNATE FEATURE: display text so far when enter is pressed instead of only when save button is clicked
-      }
-    })
-    .catch(console.log);
+
+      if (key === 'Enter') this.save();
   }
 
   save() {
-    const editor = this.state.editor;
-    let letters = this.state.letters;
-    editor.then((editor) => {
-      editor.setData('<p></p>');
-      const contentDiv = document.createElement('div');
-      contentDiv.id = 'content';
-      contentDiv.innerText = letters.join('');
-      const typedContent = document.getElementById('typed-content');
-      typedContent.appendChild(contentDiv);
-      this.setState({letters: []})
-    })
-    .catch(console.log);
+    const { editor, letters } = this.state;
+    editor.value = '';
+    editor.focus();
+    const contentDiv = document.createElement('div');
+    contentDiv.id = 'content';
+    contentDiv.innerText = letters.join('');
+    const typedContent = document.getElementById('typed-content');
+    typedContent.appendChild(contentDiv);
+    this.setState({letters: []})
   }
 }

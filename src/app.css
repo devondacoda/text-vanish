@@ -31,7 +31,6 @@ a:hover {
 #navbar ul li {
   display: flex;
   margin: 1%;
-  color: white;
 }
 
 .header{
@@ -77,30 +76,9 @@ a:hover {
   margin: auto;
 }
 
-.edtr-enter {
-  opacity: 0.01;
-  width: 0px;
-}
-
-.edtr-enter.edtr-enter-active {
-  opacity: 1;
-  width: 100px;
-  transition: ease-in-out 0.7s;
-}
-
-.edtr-leave {
-  opacity: 1;
-  width: 100px;
-}
-
-.edtr-leave.edtr-leave-active {
-  opacity: 0.01;
-  width: 0px;
-  transition: 0.7s;
-}
-
-.ck-toolbar {
-  display: none;
+.input {
+  width: 100%;
+  transition: ease-in-out 0.5s;
 }
 
 #typed-content {
@@ -129,7 +107,7 @@ a:hover {
   margin: auto;
   color:rgb(255, 255, 255);
   background: rgb(136, 136, 136);
-  transition: 0.7s;
+  transition: 0.5s;
 }
 
 .btn-block:hover {
