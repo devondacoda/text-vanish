@@ -6,4 +6,5 @@
 ```git clone https://github.com/devondacoda/text-vanish.git
 cd text-vanish
 npm install
-npm start```
+npm start
+```
