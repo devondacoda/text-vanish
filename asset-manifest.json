@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/devondacoda/text-vanish/static/css/main.00a38a4f.chunk.css",
-    "main.js": "/devondacoda/text-vanish/static/js/main.1b0f59d6.chunk.js",
-    "main.js.map": "/devondacoda/text-vanish/static/js/main.1b0f59d6.chunk.js.map",
-    "runtime-main.js": "/devondacoda/text-vanish/static/js/runtime-main.a08d94a1.js",
-    "runtime-main.js.map": "/devondacoda/text-vanish/static/js/runtime-main.a08d94a1.js.map",
-    "static/css/2.f94c169e.chunk.css": "/devondacoda/text-vanish/static/css/2.f94c169e.chunk.css",
-    "static/js/2.4b86a6e9.chunk.js": "/devondacoda/text-vanish/static/js/2.4b86a6e9.chunk.js",
-    "static/js/2.4b86a6e9.chunk.js.map": "/devondacoda/text-vanish/static/js/2.4b86a6e9.chunk.js.map",
-    "index.html": "/devondacoda/text-vanish/index.html",
-    "precache-manifest.81417e34f00764726a7975d20d22d225.js": "/devondacoda/text-vanish/precache-manifest.81417e34f00764726a7975d20d22d225.js",
-    "service-worker.js": "/devondacoda/text-vanish/service-worker.js",
-    "static/css/2.f94c169e.chunk.css.map": "/devondacoda/text-vanish/static/css/2.f94c169e.chunk.css.map",
-    "static/css/main.00a38a4f.chunk.css.map": "/devondacoda/text-vanish/static/css/main.00a38a4f.chunk.css.map",
-    "static/js/2.4b86a6e9.chunk.js.LICENSE.txt": "/devondacoda/text-vanish/static/js/2.4b86a6e9.chunk.js.LICENSE.txt",
-    "static/media/bootstrap.min.css": "/devondacoda/text-vanish/static/media/glyphicons-halflings-regular.fa277232.woff"
+    "main.css": "/text-vanish/static/css/main.00a38a4f.chunk.css",
+    "main.js": "/text-vanish/static/js/main.b28cbc6d.chunk.js",
+    "main.js.map": "/text-vanish/static/js/main.b28cbc6d.chunk.js.map",
+    "runtime-main.js": "/text-vanish/static/js/runtime-main.ce0a595f.js",
+    "runtime-main.js.map": "/text-vanish/static/js/runtime-main.ce0a595f.js.map",
+    "static/css/2.969d7008.chunk.css": "/text-vanish/static/css/2.969d7008.chunk.css",
+    "static/js/2.4b86a6e9.chunk.js": "/text-vanish/static/js/2.4b86a6e9.chunk.js",
+    "static/js/2.4b86a6e9.chunk.js.map": "/text-vanish/static/js/2.4b86a6e9.chunk.js.map",
+    "index.html": "/text-vanish/index.html",
+    "precache-manifest.48e6e3ddcc7d02b0adf66bd9f0b2d126.js": "/text-vanish/precache-manifest.48e6e3ddcc7d02b0adf66bd9f0b2d126.js",
+    "service-worker.js": "/text-vanish/service-worker.js",
+    "static/css/2.969d7008.chunk.css.map": "/text-vanish/static/css/2.969d7008.chunk.css.map",
+    "static/css/main.00a38a4f.chunk.css.map": "/text-vanish/static/css/main.00a38a4f.chunk.css.map",
+    "static/js/2.4b86a6e9.chunk.js.LICENSE.txt": "/text-vanish/static/js/2.4b86a6e9.chunk.js.LICENSE.txt",
+    "static/media/bootstrap.min.css": "/text-vanish/static/media/glyphicons-halflings-regular.fa277232.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.a08d94a1.js",
-    "static/css/2.f94c169e.chunk.css",
+    "static/js/runtime-main.ce0a595f.js",
+    "static/css/2.969d7008.chunk.css",
     "static/js/2.4b86a6e9.chunk.js",
     "static/css/main.00a38a4f.chunk.css",
-    "static/js/main.1b0f59d6.chunk.js"
+    "static/js/main.b28cbc6d.chunk.js"
   ]
 }
