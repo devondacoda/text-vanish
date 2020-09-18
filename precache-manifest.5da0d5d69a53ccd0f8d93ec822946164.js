@@ -1,31 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "60d61c5fbc956a51f574dd7b9c796561",
+    "revision": "cfcb91fb5859573f55582c71e2680097",
     "url": "/text-vanish/index.html"
   },
   {
-    "revision": "6aebafd6cbe6caaed14f",
+    "revision": "3629a1880ff112f236c7",
     "url": "/text-vanish/static/css/2.969d7008.chunk.css"
   },
   {
-    "revision": "d87a50249811b6aaf1e1",
+    "revision": "9efdc81df793de89d01c",
     "url": "/text-vanish/static/css/main.00a38a4f.chunk.css"
   },
   {
-    "revision": "6aebafd6cbe6caaed14f",
-    "url": "/text-vanish/static/js/2.4b86a6e9.chunk.js"
+    "revision": "3629a1880ff112f236c7",
+    "url": "/text-vanish/static/js/2.9297c92c.chunk.js"
   },
   {
     "revision": "da6e1857291de4855bb602d67c39a264",
-    "url": "/text-vanish/static/js/2.4b86a6e9.chunk.js.LICENSE.txt"
+    "url": "/text-vanish/static/js/2.9297c92c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d87a50249811b6aaf1e1",
-    "url": "/text-vanish/static/js/main.b28cbc6d.chunk.js"
+    "revision": "9efdc81df793de89d01c",
+    "url": "/text-vanish/static/js/main.eb848824.chunk.js"
   },
   {
-    "revision": "56a9a2680da90ae17e99",
-    "url": "/text-vanish/static/js/runtime-main.ce0a595f.js"
+    "revision": "86b1faaef8311f1391b0",
+    "url": "/text-vanish/static/js/runtime-main.62a7bea2.js"
   },
   {
     "revision": "448c34a56d699c29117adc64c43affeb",
