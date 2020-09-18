@@ -8,7 +8,7 @@ export default function Header () {
         <h5>for writers</h5>
       </div>
       <div id="logo">
-          <img id="img-smoke" src="./text-vnsh.png" alt='vanish' />
+          <img id="img-smoke" src="text-vnsh.png" alt='vanish' />
       </div>
     </div>
   );

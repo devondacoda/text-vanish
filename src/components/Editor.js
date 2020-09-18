@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ClassicEditor from '../../node_modules/@ckeditor/ckeditor5-build-classic/build/ckeditor';
+import ClassicEditor from '@ckeditor/ckeditor5-build-classic/build/ckeditor';
 
 export default class Editor extends Component {
   constructor() {

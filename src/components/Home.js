@@ -10,7 +10,7 @@ export default class Home extends Component {
         <h1> Get your thoughts out </h1>
         <h2>One. Word. At. A. Time.</h2>
         <h2> Forget the <span id="strike-out">mitsakes</span> mistakes</h2>
-        <Link to="/write">
+        <Link to="/text-vanish/write">
           <button className="btn-warning">Start writing now</button>
         </Link>
       </div>
