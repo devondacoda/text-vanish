@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c0295731771fa7b9ec23f95e3b7ee12f",
+    "revision": "bf6983f0ad1ed9a6a454dc6e40a137c4",
     "url": "/text-vanish/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/text-vanish/static/css/2.969d7008.chunk.css"
   },
   {
-    "revision": "d4d2adab4f4df10c2c79",
+    "revision": "469189ef51780a16f042",
     "url": "/text-vanish/static/css/main.00a38a4f.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/text-vanish/static/js/2.9297c92c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d4d2adab4f4df10c2c79",
-    "url": "/text-vanish/static/js/main.821e5d34.chunk.js"
+    "revision": "469189ef51780a16f042",
+    "url": "/text-vanish/static/js/main.7d854701.chunk.js"
   },
   {
     "revision": "86b1faaef8311f1391b0",

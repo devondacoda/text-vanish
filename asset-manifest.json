@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/text-vanish/static/css/main.00a38a4f.chunk.css",
-    "main.js": "/text-vanish/static/js/main.821e5d34.chunk.js",
-    "main.js.map": "/text-vanish/static/js/main.821e5d34.chunk.js.map",
+    "main.js": "/text-vanish/static/js/main.7d854701.chunk.js",
+    "main.js.map": "/text-vanish/static/js/main.7d854701.chunk.js.map",
     "runtime-main.js": "/text-vanish/static/js/runtime-main.62a7bea2.js",
     "runtime-main.js.map": "/text-vanish/static/js/runtime-main.62a7bea2.js.map",
     "static/css/2.969d7008.chunk.css": "/text-vanish/static/css/2.969d7008.chunk.css",
     "static/js/2.9297c92c.chunk.js": "/text-vanish/static/js/2.9297c92c.chunk.js",
     "static/js/2.9297c92c.chunk.js.map": "/text-vanish/static/js/2.9297c92c.chunk.js.map",
     "index.html": "/text-vanish/index.html",
-    "precache-manifest.b2bdbbe3ba351622a38e778b04457457.js": "/text-vanish/precache-manifest.b2bdbbe3ba351622a38e778b04457457.js",
+    "precache-manifest.dd54d302876f325da1892649e4d79997.js": "/text-vanish/precache-manifest.dd54d302876f325da1892649e4d79997.js",
     "service-worker.js": "/text-vanish/service-worker.js",
     "static/css/2.969d7008.chunk.css.map": "/text-vanish/static/css/2.969d7008.chunk.css.map",
     "static/css/main.00a38a4f.chunk.css.map": "/text-vanish/static/css/main.00a38a4f.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.969d7008.chunk.css",
     "static/js/2.9297c92c.chunk.js",
     "static/css/main.00a38a4f.chunk.css",
-    "static/js/main.821e5d34.chunk.js"
+    "static/js/main.7d854701.chunk.js"
   ]
 }
